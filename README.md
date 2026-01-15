@@ -11,37 +11,37 @@ numero id del grupo, directorio incial del usuario, shell de inicio de sesion
 
 Comandos:
 
-ls: listar directorios/carpetas y archivos
-pwd: mostrar ruta donde estoy
-cd: para cambiar de directorio/carpeta
-cd.. : para regresar al directorio/carpeta anterior
-ls -l: muestra los permisos de las carpetas/directorios y archivos
-cd ~: los posiciona en la carpeta del usuario
-mkdir: sirve para crear una carpeta
-touch: sirve para crear un archivo nuevo
-rm: sirve para borrar archivos
-rmdir: sirve para borrar carpetas vacias
-rm -R: sirve para borrar carpeta y archivos que esten dentro
-cat: sirve para leer el contenido de un archivo
-more: sirve para leer el contenido de un archivo de texto plano
-less: sirve para leer el contenido de forma que puedo avanzar y retroceder una pagina
-man: sirve para dar el manual de cada comando
-mv: sirve para mover/renombrarlos archivos y carpetas aun si contiene archivos
-cp: sirve para copiar archivos
-cp -R: sirve para copiar archivos y carpeta
-chmod: sirve para dar permisos de lectura, escritura y ejecución
-chown: sirve para cambiar de usuario propietario y grupo
-sudo su: sirve para convertirse en usuario root o administrador
-grep: sirve para hacer una busqueda por nombre en un archivo o en un listado de procesos
-pgrep: sirve para buscar el id de proceso
-kill: sirve para matar un proceso o varios
-kill (id): sirve para matar un proceso con el id
-killall: sirve para matar todos los procesos y derivados
-kill -STOP: sirve para detener un proceso
-kill -CONT: sirve para darle marcha a un proceso
-adduser: sirve para crear un nuevo usuario
-passwd: sirve para agregar nueva contraseña a un usuario
-deluser: sirve para borrar el usuario
+ls: listar directorios/carpetas y archivos.
+pwd: mostrar ruta donde estoy.
+cd: para cambiar de directorio/carpeta.
+cd.. : para regresar al directorio/carpeta anterior.
+ls -l: muestra los permisos de las carpetas/directorios y archivos.
+cd ~: los posiciona en la carpeta del usuario.
+mkdir: sirve para crear una carpeta.
+touch: sirve para crear un archivo nuevo.
+rm: sirve para borrar archivos.
+rmdir: sirve para borrar carpetas vacias.
+rm -R: sirve para borrar carpeta y archivos que esten dentro.
+cat: sirve para leer el contenido de un archivo.
+more: sirve para leer el contenido de un archivo de texto plano.
+less: sirve para leer el contenido de forma que puedo avanzar y retroceder una pagina.
+man: sirve para dar el manual de cada comando.
+mv: sirve para mover/renombrarlos archivos y carpetas aun si contiene archivos.
+cp: sirve para copiar archivos.
+cp -R: sirve para copiar archivos y carpeta.
+chmod: sirve para dar permisos de lectura, escritura y ejecución.
+chown: sirve para cambiar de usuario propietario y grupo.
+sudo su: sirve para convertirse en usuario root o administrador.
+grep: sirve para hacer una busqueda por nombre en un archivo o en un listado de procesos.
+pgrep: sirve para buscar el id de proceso.
+kill: sirve para matar un proceso o varios.
+kill (id): sirve para matar un proceso con el id.
+killall: sirve para matar todos los procesos y derivados.
+kill -STOP: sirve para detener un proceso.
+kill -CONT: sirve para darle marcha a un proceso.
+adduser: sirve para crear un nuevo usuario.
+passwd: sirve para agregar nueva contraseña a un usuario.
+deluser: sirve para borrar el usuario.
 deluser --remove-home sirve para borrar el usuario y su carpeta home
 nano: sirve para crear archivo de texto plano y editar archivos de configuracion
 para porder guardar como ctrl + o
