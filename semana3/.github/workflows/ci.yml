@@ -1,0 +1,16 @@
+yaml
+
+name: CI Pipeline
+
+on: [push]
+jobs:
+  build:
+    runs-on: Ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Run test
+        run: echo "Pipeline funcionando"
+
