@@ -1,14 +1,12 @@
 name: CI Pipeline
-
 on: [push]
-
 jobs:
-  build:
-    runs-on: ubuntu-latest
-
+  build-and-test:
+    runs-on: ubuntu-latest #Entorno donde se ejecutará
     steps:
-      - name: checkout repo
-        uses: actions/checkout@v3
-
-       - name: run test
-         run: echo "Pipeline funcionando"
+      - name: Descargar código
+        uses: actions/checkout@v4
+      - name: Instalar dependecias
+        run: npm install
+      - name: Ejecutar test
+        run: npm test
