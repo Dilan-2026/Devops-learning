@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest #Entorno donde se ejecutará
 
     permissions:
-      contens: write
+      contents: write
       
     steps:
       - name: Descargar repo
