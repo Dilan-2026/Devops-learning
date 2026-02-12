@@ -12,3 +12,5 @@ jobs:
         run: docker build -t devops-app ./semana3/app
       - name: Run test
         run: bash semana3/test.sh
+      - name: Deploy simulacion
+        run: echo "Deploy automático completado"
