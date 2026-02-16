@@ -1,9 +1,11 @@
 name: CI Pipeline
-on: [push]
+on:
+  push:
+    branches:
+      - main
 jobs:
   build-and-test:
     runs-on: ubuntu-latest #Entorno donde se ejecutará
-
     permissions:
       contents: write
       
