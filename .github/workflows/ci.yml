@@ -1,8 +1,14 @@
 name: CI Pipeline
-on: [push]
+on:
+  push:
+    branches:
+      - main
 jobs:
   build-and-test:
     runs-on: ubuntu-latest #Entorno donde se ejecutará
+    permissions:
+      contents: write
+      
     steps:
       - name: Descargar repo
         uses: actions/checkout@v4
@@ -14,3 +20,10 @@ jobs:
         run: bash semana3/test.sh
       - name: Deploy simulacion
         run: echo "Deploy automático completado"
+      - name: Commit and push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: update stats
+          commit_user_name: Dilan-2026
+          commit_user_email: dilan-2026@github.com
+          commit_author: Dilan-2026
